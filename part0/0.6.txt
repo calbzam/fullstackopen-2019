@@ -1,0 +1,7 @@
+browser->server: HTTP POST {content: "single page app does not reload the whole page",date: "2019-05-25T15:15:59.905Z"}\nhttps://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server:
+the server creates the object corresponding to the new note and put it in the notes table
+end note
+
+server-->browser: status 201, {"message":"note created"}
