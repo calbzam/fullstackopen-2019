@@ -4,7 +4,7 @@ const Person = (props) => {
   return (
     <>
       <p>
-        {props.name} {props.number}
+        <div>{props.name} {props.number} <button onClick={props.toggleButton}>delete</button></div>
       </p> 
     </>
   )
